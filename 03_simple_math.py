@@ -1,7 +1,7 @@
-# Python and comptuers in general are capable of performing simple
+# Python and computers in general are capable of performing simple
 # and complex math functions. We can use integers and float numbers
-# combined with variables to add subtract and other various mathmatical
-# algorythms.
+# combined with variables to add subtract and other various mathematical
+# algorithms.
 
 # An integer is any whole number like 50, 20, or 1
 
@@ -12,7 +12,7 @@ int_var = 1
 
 int_float_var = 2.4
 
-# You can use varaiables to perform simple math by adding them together.
+# You can use variables to perform simple math by adding them together.
 
 combined_var = int_var + int_float_var
 
@@ -20,7 +20,7 @@ combined_var = int_var + int_float_var
 
 # I like to use the "\n" function to create new lines essentially its
 # like hitting the enter key and going down one line. 
-# its helps me organize and seperate each function thats being called
+# its helps me organize and separate each function thats being called
 # as well as making the results more readable for me to understand.
 
 print("\n")
@@ -33,14 +33,14 @@ print("\n")
 # This will show the result of 1 + 2.4 = 3.4.  
 
 # You can use variables and simple math to calculate percentages using
-# python's Modulo % operator. Lets calcualte a discount off a sale
+# python's Modulo % operator. Lets calculate a discount off a sale
 # at a local store.
 
 order_num_1 = 100
 order_discount = 13
 
 # Now we have to calculate the discount by using modulo % with order 1
-# to determin how much to take off the total price.
+# to determine how much to take off the total price.
  
 calculate_discount = order_discount % order_num_1
 
@@ -80,9 +80,9 @@ order_num_1_str = str(order_num_1)
 calculate_discount_str = str(calculate_discount)
 cust_total_str = str(cust_total)
 
-# Now that I have trasformed the int's to str's i can print the totals
-# on the same line with each other. I beleive this is primarily used
-# to make reading and formating easier to understand and process. 
+# Now that I have transformed the int's to str's i can print the totals
+# on the same line with each other. I believe this is primarily used
+# to make reading and formatting easier to understand and process. 
 
 print("\n")
 
@@ -94,7 +94,7 @@ print("\n")
 
 # Now each total is presented after the : on the same line.
 # you can mess with the spacing if you want to make it look cleaner
-# for things like recepits where its nice to have the totals in the same
+# for things like receipts where its nice to have the totals in the same
 # row
 
 print("\n")
@@ -105,6 +105,5 @@ print("Cost After Discount: " + cust_total_str)
 
 print("\n")
 
-# You can use the "\n" new line function to add "enters" in the print() fuction
+# You can use the "\n" new line function to add "enters" in the print() function
 # just make sure you concatenate with the + "\n" + where you want your "enter" to go.
-
