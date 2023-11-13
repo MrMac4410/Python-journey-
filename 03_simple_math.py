@@ -46,8 +46,13 @@ calculate_discount = order_discount % order_num_1
 
 # Now we take the calculated discount and subtract it from the order 1
 # amount and this will give you the customers total. 
+# You could do all of this one one line to make your code smaller.
 
 cust_total = order_num_1 - calculate_discount
+
+# Or
+
+cust_total_oneline_var = order_num_1 - order_discount % order_num_1
 
 print("\n")
 
@@ -57,6 +62,9 @@ print("Total Discount:")
 print(calculate_discount)
 print("Cost After Discount:")
 print(cust_total)
+print("\n")
+print("This is the single line Variable:")
+print(cust_total_oneline_var)
 
 print("\n")
 
