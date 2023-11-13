@@ -34,7 +34,7 @@ you tell them too.
 print(first_multi_string_var)
 
 
-# Notice in all these variable examples i do not use qoutes to call
+# Notice in all these variable examples I do not use qoutes to call
 # the variable as they are not requried.  you simply type the variable
 # name into the print() brackets. 
 
@@ -42,9 +42,10 @@ print(first_multi_string_var)
 # like strings or integers. 
 # you can use concatenate to add multple strings together to form
 # a sentence.  
-# 
+
 # Lets use the game Mad Libs as an example. We wil use concatenante
 # as well as the input() function to gather words for the mad lib. 
+
 # input() is a method used to interacte with a user/s.  when you add
 # input() it will prompt the user to type in a response.  We will take
 # these responses and add them to variables.  After we have gathered
@@ -67,6 +68,7 @@ mad_lib_var1 = "Please excuse " + name_var + " they are authorized to be at the 
 # them seperatly by concatenating blank space i.e.
 
 mad_lib_var2 = "Please excuse" + " " + name_var + " " + "they are authorized to be at the" + " " + place_var + " " + "instead of the" + " " + noun_var
+
 # This method seems very tedious to me so I choose to add spaces before
 # or after my strings.  
 
@@ -74,4 +76,6 @@ print(mad_lib_var1)
 print(mad_lib_var2)
 
 # Both var1 and var2 are the same when sent to the terminal even though var2 contains
-# more code.
+# more code.  Now everytime you run thise code it will prompt the user to add information.
+# it will then overwrite anything currently stored in the variable with the new input. 
+
