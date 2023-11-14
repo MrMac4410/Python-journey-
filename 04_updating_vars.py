@@ -128,4 +128,3 @@ itemized_receipt += "Itemized receipt" \
 
 print(itemized_receipt)
 print("\n")
-
