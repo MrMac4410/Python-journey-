@@ -116,6 +116,7 @@ itemized_receipt_total_str_var = str(itemized_receipt_total)
 
 # Lets add all this together in one itemized receipt and try to
 # make it look presentable. I just discovered that \ at the end of your code lets you continue the code on the new line. 
+
 itemized_receipt = ""
 itemized_receipt += "Itemized receipt" \
     + "\n" + watermelon_des + "\n"\
